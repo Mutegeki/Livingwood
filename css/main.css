@@ -1,7 +1,5 @@
 body,
 html {
     font-family: 'Raleway', sans-serif;
-    text-rendering: optimizeLegibility !important;
-    -webkit-font-smoothing: antialiased !important;
     font-weight: 300;
 }
