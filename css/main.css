@@ -1,5 +1,60 @@
 body,
 html {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
+    font-family: 'Raleway', sans-serif, Work Sans;
+    font-weight: 400;
+}
+.living_head {
+    width: 100%;
+    margin: 0 auto;
+}
+.living_head ::after {
+    content: "";
+    display: table;
+    clear: both; 
+}
+.logo {
+    float: left;
+    padding: 10px 0;
+}
+.living_link  {
+    float: right;
+}
+.living_link ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+.living_link li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+
+    position: relative;
+}
+.living_link a {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.living_link a:hover {
+    color: #000;
+
+}
+.living_link a::before {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 0%;
+    background: #444;
+
+    position: absolute;
+    top: 0;
+
+    transition: all ease-in-out 250ms;
+
+}
+.living_link a:hover::before {
+    width: 100%;
 }
