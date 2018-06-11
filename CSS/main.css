@@ -6,7 +6,9 @@ html {
 .living_head {
     width: 100%;
     margin: 0 auto;
-}-
+    height: 90px;
+    background-color: #000;
+}
 .living_head ::after {
     content: "";
     display: table;
@@ -14,9 +16,11 @@ html {
 }
 .logo {
     float: left;
-    padding: 0  0 0 0;
+    padding: 5px  0 0 40px;
     width: 200px;
-    height: 150px;
+    height: 85px;
+    margin-left: 50px;
+
 }
 .living_link  {
     float: right;
@@ -29,19 +33,19 @@ html {
 }
 .living_link li {
     display: inline-block;
-    margin-left: 70px;
-    padding-top: 23px;
+    margin: 0 80px 0 0;
+    padding: 30px 0 30px 0;
 
     position: relative;
 }
 .living_link a {
-    color: #444;
+    color: rgb(235, 228, 228);
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
 }
 .living_link a:hover {
-    color: #000;
+    color: rgb(224, 215, 215);
 
 }
 .living_link a::before {
@@ -49,7 +53,7 @@ html {
     display: block;
     height: 5px;
     width: 0%;
-    background: #444;
+    background: rgb(247, 242, 242);
 
     position: absolute;
     top: 0;
@@ -86,4 +90,38 @@ img {
     bottom: 8px;
     width: 100%;
     text-align: center;
+}
+/* Fading animation */
+
+.fade {
+    -webkit - animation - name: fade;
+    - webkit - animation - duration: 1.5 s;
+    animation - name: fade;
+    animation - duration: 1.5 s;
+}
+
+@ - webkit - keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+
+@media only screen and(max - width: 300 px) {
+    .text {
+        font - size: 11 px
+    }
 }
