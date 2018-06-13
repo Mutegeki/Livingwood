@@ -50,6 +50,9 @@ body {
         font-size: 18px;
     }
 }
+.living_home .carousel-item img {
+    height: 400px;
+}
 
 
 
