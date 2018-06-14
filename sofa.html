@@ -28,7 +28,6 @@
         </div>
         <a href="index.html">Home</a>
         <button class="dropdown-btn">Collections
-            <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
             <a href="sofa.html">Sofa</a>
@@ -40,23 +39,70 @@
         </div>
         <a href="contact.html">Contact</a>
     </div>
-    <!-- slide image-->
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner  living_home">
-            <div class="carousel-item active">
-                <img class="d-block w-100 living_home" src="img/event.jpg" alt="First slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100 living_home" src="img/event1.jpg" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100 living_home" src="img/home.jpg" alt="Third slide">
-            </div>
-        </div>
-    </div>
+    <!-- image-->
 
+
+    
 
     <!-- sofa tv-->
+    <!--<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner  living_sofa">
+            <div class="carousel-item active">
+                <img class="d-block   living_sofa" src="img/event.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>sofa</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block  living_sofa" src="img/event1.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>table</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block  living_sofa" src="img/home.jpg" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Dinning</h5>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner living_sofa">
+            <div class="carousel-item active">
+                <img class="d-block living_sofa" src="img/event.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Dinning</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block living_sofa" src="img/event1.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Dinning</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block living_sofa" src="img/home.jpg" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Dinning</h5>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev living_sofa" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon living_sofa" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next living_sofa" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon living_sofa" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    
     <!-- footer-->
     <div class="footer">
         <div class="row">
@@ -139,12 +185,6 @@
         crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
-
-    <script>
-        $(document).ready(function () {
-            console.log("Brian")
-        })
-    </script>
     <script>
         /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
         var dropdown = document.getElementsByClassName("dropdown-btn");
@@ -162,6 +202,7 @@
             });
         }
     </script>
+
 
 </body>
 

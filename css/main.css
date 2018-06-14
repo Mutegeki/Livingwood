@@ -54,9 +54,9 @@ body {
     margin-left: 243px;
     width: 80%;
     /* Same as the width of the sidenav */
-    font-size: 20px;
+    font-size: 18px;
     /* Increased text to enable scrolling */
-    padding: 0px 10px;
+    padding: 20px 20px 20px 20px;
 }
 
 /* Add an active class to the active dropdown button */
@@ -96,8 +96,9 @@ body {
 .main {
     margin-left: 243px;
     width: 80%;
+    height: 210px;
     /* Same as the width of the sidenav */
-    font-size: 28px;
+    font-size: 18px;
     /* Increased text to enable scrolling */
     padding: 30px 10px;
 }
@@ -110,6 +111,12 @@ body {
         font-size: 18px;
     }
 }
+.about {
+    padding: 10px 20px 20px 10px;
+}
+.about h2 {
+    padding-bottom: 10px;
+}
 /* ----------- home slide image -------*/
 .living_home .carousel-item img {
     height: 400px;
@@ -120,9 +127,16 @@ body {
     width: 80%;
 }
 .living_footer {
-    width: 25%;
-    padding: 20px;
-    margin: 20px;
+    width: 20%;
+    padding: 0;
+    margin: 10px 0 10px 25px;
+    font-size: 18px;
+}
+.living_footerhead {
+    padding: 10px 0 10px 0;
+    color: rgb(252, 127, 11);
+    font-size: 20px;
+
 }
 .living_social {
     text-align: center;
@@ -138,6 +152,14 @@ body {
 }
 .living_copy {
     margin-bottom: 50px;
+}
+.living_sofa .carousel-item img {
+    width: 700px;
+    margin-left: 400px;
+    height: 400px;
+    float: left;
+    margin-top: 30px;
+
 }
 
 
