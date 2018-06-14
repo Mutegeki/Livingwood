@@ -54,6 +54,30 @@ body {
 .living_home .carousel-item img {
     height: 400px;
 }
+.footer {
+    margin-left: 240px;
+    width: 80%;
+}
+.living_footer {
+    width: 25%;
+    padding: 20px;
+    margin: 20px;
+}
+.living_social {
+    text-align: center;
+    display: inline-block;
+}
+.living_social ul {
+    list-style: none;
+}
+.living_social li {
+    display: inline-block;
+    padding: 20px 0 20px 0;
+    margin: 8px;
+}
+.living_copy {
+    margin-bottom: 50px;
+}
 
 
 
