@@ -96,7 +96,7 @@ body {
 .main {
     margin-left: 243px;
     width: 80%;
-    height: 210px;
+    height: auto;
     /* Same as the width of the sidenav */
     font-size: 18px;
     /* Increased text to enable scrolling */
@@ -153,14 +153,20 @@ body {
 .living_copy {
     margin-bottom: 50px;
 }
+/*======= sofa tv======*/
 .living_sofa .carousel-item img {
     width: 700px;
     margin-left: 400px;
     height: 400px;
     float: left;
     margin-top: 30px;
+    margin-bottom: 30px;
+}
+.Living_collection {
+    width: 98%;
 
 }
+
 
 
 
