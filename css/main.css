@@ -3,31 +3,31 @@ body {
 }
 /* :::::::::::: sidedbar :::::::::*/
 .livinglogo {
-    width: 170px;
-    height: 70px;
-    top: 0;
-    left: 0;
-    margin: 20px 20px 20px 20px; 
+    width: 200px;
+    height: 90px;
+    margin: 0; 
+    background-color: #fff;
+    padding: 10px;
 }
 
 /* Fixed sidenav, full height */
 
 .sidenav {
     height: 100%;
-    width: 220px;
+    width: 200px;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-image: url(../img/nav.jpg);
     overflow-x: hidden;
-    padding-top: 20px;
+    padding-top: 0;
 }
 
 .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: #818181;
     display: block;
 }
@@ -99,9 +99,9 @@ body {
 }
 /*======= sofa tv======*/
 .living_sofa .carousel-item img {
-    width: 700px;
+    width: 720px;
     margin-left: 400px;
-    height: 400px;
+    height: 420px;
     float: left;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -141,8 +141,8 @@ input[type=submit]:hover {
 .container {
     border-radius: 5px;
     background-color: #f2f2f2;
-    padding: 10px;
-    margin-left: 243px;
+    padding: 0;
+    margin-left: 240px;
     width: 80%;
 }
 
