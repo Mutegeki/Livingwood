@@ -59,10 +59,12 @@ body {
     padding: 10px 20px 20px 10px;
     text-align: center;
     width: 40%;
+    margin: 0 0 0 60px;
     
 }
 .about h2 {
     padding-bottom: 10px;
+    font-size: 18px;
 }
 /* ----------- home slide image -------*/
 .living_home .carousel-item img {
@@ -81,7 +83,7 @@ hr{
     margin-right: auto;
     border-style: inset;
     /*border-width: 1px;*/
-    border-color: black;
+    
 }
 .footer {
     width: 80%;
@@ -235,6 +237,10 @@ input[type=submit]:hover {
 .image {
     width: 100%;
     height: 400px;
+}
+/* -====-==-=-= contact _+_+_+*/
+.workshop_img {
+    width: 70%;
 }
 
 
